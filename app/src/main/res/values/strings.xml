@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Hello World</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ke_menu_satu">Ke Menu Satu</string>
+    <string name="pemesananan_makanan">Pemesananan Makanan</string>
+    <string name="plus">+</string>
+    <string name="_0">0</string>
+    <string name="minus">-</string>
+    <string name="toping">Toping</string>
+    <string name="ice_cream">Ice Cream</string>
+    <string name="ceres">Ceres</string>
+    <string name="rasa">Rasa</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="masukan_nama_anda">Masukan Nama Anda</string>
+    <string name="beli">Beli</string>
+    <string name="reset">Reset</string>
+    <string name="struk_pembelian">Struk Pembelian</string>
+    <string name="textview">TextView</string>
 </resources>

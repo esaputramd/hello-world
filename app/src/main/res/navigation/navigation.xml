@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.d3if0065.helloworld.BlankFragment"
+        android:label="BlankFragment" >
+        <action
+            android:id="@+id/action_blankFragment_to_fragment2"
+            app:destination="@id/fragment2" />
+        <action
+            android:id="@+id/action_blankFragment_to_fragment3"
+            app:destination="@id/fragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.d3if0065.helloworld.fragment2"
+        android:label="fragment2" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.d3if0065.helloworld.fragment3"
+        android:label="fragment3" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.d3if0065.helloworld.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>
